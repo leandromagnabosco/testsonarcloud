@@ -1,0 +1,53 @@
+<!--
+  ~ Copyright (c) 2019 Adyen N.V.
+  ~
+  ~ This file is open source and available under the MIT license. See the LICENSE file for more info.
+  ~
+  ~ Created by ran on 13/3/2019.
+  -->
+
+<resources>
+    <string name="checkout_card_number_hint">Broj kartice</string>
+    <string name="checkout_card_holder_hint">Ime na kartici</string>
+    <string name="checkout_card_expiry_date_hint">Datum isteka</string>
+    <string name="checkout_card_expiry_date_optional_hint">Datum isteka (neobavezno)</string>
+    <string name="checkout_card_security_code_hint">CVC/CVV</string>
+    <string name="checkout_card_security_code_optional_hint">CVC/CVV (nije obavezno)</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_hint">Datum rođenja vlasnika kartice (GGMMDD) ili registracijski broj tvrtke (10 znamenki)</string>
+    <string name="checkout_kcp_tax_number_hint">Registracijski broj tvrtke (10 znamenki)</string>
+    <string name="checkout_kcp_password_hint">Prve 2 znamenke lozinke kartice</string>
+    <string name="checkout_card_postal_code_hint">Poštanski broj</string>
+
+    <string name="checkout_card_number_not_valid">Nevažeći broj kartice</string>
+    <string name="checkout_expiry_date_not_valid">Nevažeći datum isteka</string>
+    <string name="checkout_expiry_date_not_valid_too_old">Kartica je prestara</string>
+    <string name="checkout_expiry_date_not_valid_too_far_in_future">Datum je predaleko u budućnosti</string>
+    <string name="checkout_security_code_not_valid">Nevažeći CVC/CVV format</string>
+    <string name="checkout_holder_name_not_valid">Ime vlasnika nije valjano</string>
+    <string name="checkout_social_security_number_not_valid">Pogrešan unos</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_invalid">Netočan datum rođenja vlasnika kartice (GGMMDD) ili registracijski broj tvrtke (10 znamenki)</string>
+    <string name="checkout_kcp_password_invalid">Lozinka je netočna</string>
+    <string name="checkout_card_postal_not_valid">Format unosa nije važeći.</string>
+    <string name="checkout_card_brand_not_supported">Unesena marka kartice nije podržana</string>
+    <string name="checkout_card_formatted_brand_name_not_supported">Kartica %s nije podržana</string>
+
+    <string name="checkout_address_form_billing_address_title">Adresa za račun</string>
+    <string name="checkout_address_form_street_hint">Ulica</string>
+    <string name="checkout_address_form_address_hint">Adresa</string>
+    <string name="checkout_address_form_house_number_hint">Kućni broj</string>
+    <string name="checkout_address_form_apartment_suite_hint">Stan/apartman</string>
+    <string name="checkout_address_form_city_hint">Grad</string>
+    <string name="checkout_address_form_country_hint">Zemlja</string>
+    <string name="checkout_address_form_states_hint">Savezna država</string>
+    <string name="checkout_address_form_zip_code_hint">Poštanski broj</string>
+    <string name="checkout_address_form_province_territory_hint">Pokrajina ili teritorij</string>
+    <string name="checkout_address_form_city_town_hint">Grad</string>
+    <string name="checkout_address_form_field_not_valid">Pogrešan unos</string>
+
+    <string name="checkout_card_installments_title">Broj rata</string>
+    <string name="checkout_card_installments_option_regular">Mjeseci: %s</string>
+    <string name="checkout_card_installments_option_one_time">Jednokratno plaćanje</string>
+    <string name="checkout_card_installments_option_revolving">Obnovljivo plaćanje</string>
+
+    <string name="store_payment_method">Pohrani za moje sljedeće plaćanje</string>
+</resources>

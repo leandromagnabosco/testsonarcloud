@@ -1,0 +1,53 @@
+<!--
+  ~ Copyright (c) 2019 Adyen N.V.
+  ~
+  ~ This file is open source and available under the MIT license. See the LICENSE file for more info.
+  ~
+  ~ Created by ran on 13/3/2019.
+  -->
+
+<resources>
+    <string name="checkout_card_number_hint">信用卡號碼</string>
+    <string name="checkout_card_holder_hint">信用卡上的姓名</string>
+    <string name="checkout_card_expiry_date_hint">到期日期</string>
+    <string name="checkout_card_expiry_date_optional_hint">到期日（選用）</string>
+    <string name="checkout_card_security_code_hint">信用卡驗證碼 / 信用卡安全碼</string>
+    <string name="checkout_card_security_code_optional_hint">CVC / CVV (可選)</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_hint">持卡人生日（年月日）或公司註冊號碼（10 位數）</string>
+    <string name="checkout_kcp_tax_number_hint">公司註冊號碼（10 位數）</string>
+    <string name="checkout_kcp_password_hint">卡密碼的前 2 位數字</string>
+    <string name="checkout_card_postal_code_hint">郵遞區號</string>
+
+    <string name="checkout_card_number_not_valid">信用卡號碼無效</string>
+    <string name="checkout_expiry_date_not_valid">到期日期無效</string>
+    <string name="checkout_expiry_date_not_valid_too_old">卡太舊</string>
+    <string name="checkout_expiry_date_not_valid_too_far_in_future">未來日期距今太久</string>
+    <string name="checkout_security_code_not_valid">CVC／CVV 格式無效</string>
+    <string name="checkout_holder_name_not_valid">持卡人姓名無效</string>
+    <string name="checkout_social_security_number_not_valid">輸入無效</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_invalid">持卡人生日或公司註冊號碼無效</string>
+    <string name="checkout_kcp_password_invalid">密碼無效</string>
+    <string name="checkout_card_postal_not_valid">輸入的格式無效。</string>
+    <string name="checkout_card_brand_not_supported">系統不支援所輸入的卡片品牌</string>
+    <string name="checkout_card_formatted_brand_name_not_supported">系統不支援 %s</string>
+
+    <string name="checkout_address_form_billing_address_title">帳單地址</string>
+    <string name="checkout_address_form_street_hint">街道</string>
+    <string name="checkout_address_form_address_hint">地址</string>
+    <string name="checkout_address_form_house_number_hint">門牌號</string>
+    <string name="checkout_address_form_apartment_suite_hint">公寓／套房</string>
+    <string name="checkout_address_form_city_hint">城市</string>
+    <string name="checkout_address_form_country_hint">國家/地區</string>
+    <string name="checkout_address_form_states_hint">州</string>
+    <string name="checkout_address_form_zip_code_hint">郵遞區號</string>
+    <string name="checkout_address_form_province_territory_hint">省或地區</string>
+    <string name="checkout_address_form_city_town_hint">市／鎮</string>
+    <string name="checkout_address_form_field_not_valid">輸入無效</string>
+
+    <string name="checkout_card_installments_title">分期付款的期數</string>
+    <string name="checkout_card_installments_option_regular">%s 個月</string>
+    <string name="checkout_card_installments_option_one_time">一次性付款</string>
+    <string name="checkout_card_installments_option_revolving">延期付款</string>
+
+    <string name="store_payment_method">儲存以供下次付款使用</string>
+</resources>

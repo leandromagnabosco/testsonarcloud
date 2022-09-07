@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2019 Adyen N.V.
+  ~
+  ~ This file is open source and available under the MIT license. See the LICENSE file for more info.
+  ~
+  ~ Created by arman on 18/9/2019.
+  -->
+
+<resources>
+
+    <style name="AdyenCheckout.Card" />
+
+    <style name="AdyenCheckout.Image.CardLogo">
+        <item name="android:layout_width">@dimen/brand_logo_width</item>
+        <item name="android:layout_height">@dimen/brand_logo_height</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.BrandListLogo" parent="AdyenCheckout.Image.CardLogo">
+        <item name="android:layout_marginStart">@dimen/standard_quarter_margin</item>
+        <item name="android:layout_marginLeft">@dimen/standard_quarter_margin</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.BrandRecognitionLogoContainerGroup">
+        <item name="android:layout_marginStart">@dimen/standard_quarter_margin</item>
+        <item name="android:layout_marginLeft">@dimen/standard_quarter_margin</item>
+        <item name="android:layout_gravity">end|top</item>
+        <item name="android:layout_marginTop">@dimen/cardList_top_margin</item>
+        <item name="android:layout_marginEnd">@dimen/standard_three_quarters_margin</item>
+        <item name="android:layout_marginRight">@dimen/standard_three_quarters_margin</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.BrandRecognitionLogo" parent="AdyenCheckout.Image.CardLogo">
+        <item name="android:src">@drawable/ic_card</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.BrandRecognitionLogoContainer">
+        <item name="android:paddingStart">@dimen/standard_quarter_margin</item>
+        <item name="android:paddingEnd">@dimen/standard_quarter_margin</item>
+        <item name="android:paddingTop">@dimen/standard_half_margin</item>
+        <item name="android:paddingBottom">@dimen/standard_half_margin</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.CardNumberInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_card_number_hint</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.ExpiryDateInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_card_expiry_date_hint</item>
+        <item name="android:inputType">date</item>
+        <item name="android:maxLength">7</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.SecurityCodeInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_card_security_code_hint</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">4</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.HolderNameInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_card_holder_hint</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.SocialSecurityNumberInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_social_security_number_hint</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.KcpBirthDateOrTaxNumber" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_kcp_birth_date_or_tax_number_hint</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">10</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.KcpCardPassword" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_kcp_password_hint</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:maxLength">2</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.StreetInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_address_form_street_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.AddressInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_address_form_address_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.HouseNumberInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_address_form_house_number_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.PostalCodeInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_card_postal_code_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.ZipCodeInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_address_form_zip_code_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.CityInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_address_form_city_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.CityTownInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_address_form_city_town_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.ApartmentSuiteInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_address_form_apartment_suite_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.ProvinceTerritoryInput" parent="AdyenCheckout.TextInputEditText">
+        <item name="android:hint">@string/checkout_address_form_province_territory_hint</item>
+        <item name="android:inputType">textPostalAddress</item>
+    </style>
+
+    <style name="AdyenCheckout.DropdownTextInputLayout.CountryInput" parent="AdyenCheckout.DropdownTextInputLayout">
+        <item name="android:hint">@string/checkout_address_form_country_hint</item>
+    </style>
+
+    <style name="AdyenCheckout.DropdownTextInputLayout.StatesInput" parent="AdyenCheckout.DropdownTextInputLayout">
+        <item name="android:hint">@string/checkout_address_form_states_hint</item>
+    </style>
+
+    <style name="AdyenCheckout.DropdownTextInputLayout.ProvinceTerritoryInput" parent="AdyenCheckout.DropdownTextInputLayout">
+        <item name="android:hint">@string/checkout_address_form_province_territory_hint</item>
+    </style>
+
+    <style name="AdyenCheckout.Card.StorePaymentSwitch" parent="AdyenCheckout.Switch">
+        <item name="android:text">@string/store_payment_method</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AdyenCheckout.DropdownTextInputLayout.Installments" parent="AdyenCheckout.DropdownTextInputLayout">
+        <item name="android:hint">@string/checkout_card_installments_title</item>
+    </style>
+
+    <style name="AdyenCheckout.InstallmentOptionTextView" parent="AdyenCheckout.TextAppearance">
+        <item name="android:textColor">?android:attr/textColor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="AdyenCheckout.AddressForm.HeaderTextAppearance" parent="AdyenCheckout.TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:layout_marginBottom">@dimen/standard_margin</item>
+        <item name="android:text">@string/checkout_address_form_billing_address_title</item>
+    </style>
+</resources>

@@ -1,0 +1,55 @@
+apply from: "config/gradle/checksums.gradle"
+apply from: "config/gradle/dependenciesCheck.gradle"
+
+ext {
+    checkoutRedirectScheme = "adyencheckout"
+     // This is a quirk in the Spotbugs plugin, the class name isn't findable in the separate spotbugs.gradle file
+     // unless you define classpath "gradle.plugin.com.github.spotbugs.snom:spotbugs-gradle-plugin:4.3.0" there.
+    SpotBugsTask = com.github.spotbugs.snom.SpotBugsTask
+}
+
+buildscript {
+    apply from: './dependencies.gradle'
+
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$android_gradle_plugin_version"
+        classpath "io.gitlab.arturbosch.detekt:detekt-gradle-plugin:$detekt_gradle_plugin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "gradle.plugin.com.github.spotbugs.snom:spotbugs-gradle-plugin:$spotbugs_gradle_plugin_version"
+        classpath "org.jetbrains.dokka:dokka-gradle-plugin:$dokka_version"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+    }
+}
+
+apply from: "config/gradle/dokkaRoot.gradle"
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    tasks.withType(Test) {
+        useJUnitPlatform()
+    }
+}
+
+subprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            freeCompilerArgs += [
+                '-opt-in=kotlin.RequiresOptIn'
+            ]
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

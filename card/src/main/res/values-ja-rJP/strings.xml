@@ -1,0 +1,53 @@
+<!--
+  ~ Copyright (c) 2019 Adyen N.V.
+  ~
+  ~ This file is open source and available under the MIT license. See the LICENSE file for more info.
+  ~
+  ~ Created by ran on 13/3/2019.
+  -->
+
+<resources>
+    <string name="checkout_card_number_hint">カード番号</string>
+    <string name="checkout_card_holder_hint">カード上の名前</string>
+    <string name="checkout_card_expiry_date_hint">有効期限</string>
+    <string name="checkout_card_expiry_date_optional_hint">有効期限（任意）</string>
+    <string name="checkout_card_security_code_hint">セキュリティーコード (CVC)</string>
+    <string name="checkout_card_security_code_optional_hint">セキュリティーコード(任意)</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_hint">カード所有者の生年月日（YYMMDD）または法人登録番号（10桁）</string>
+    <string name="checkout_kcp_tax_number_hint">法人登録番号（10桁）</string>
+    <string name="checkout_kcp_password_hint">カードのパスワードの最初の2桁</string>
+    <string name="checkout_card_postal_code_hint">郵便番号</string>
+
+    <string name="checkout_card_number_not_valid">カード番号が無効です</string>
+    <string name="checkout_expiry_date_not_valid">有効期限が無効です</string>
+    <string name="checkout_expiry_date_not_valid_too_old">カードが古すぎます</string>
+    <string name="checkout_expiry_date_not_valid_too_far_in_future">未来の日付が先すぎです</string>
+    <string name="checkout_security_code_not_valid">無効なCVC / CVV形式です</string>
+    <string name="checkout_holder_name_not_valid">口座名義が無効です</string>
+    <string name="checkout_social_security_number_not_valid">無効な入力</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_invalid">カード所有者の生年月日または法人登録番号が無効です</string>
+    <string name="checkout_kcp_password_invalid">パスワードが無効です</string>
+    <string name="checkout_card_postal_not_valid">入力形式が無効です。</string>
+    <string name="checkout_card_brand_not_supported">入力されたカードブランドはサポートされていません</string>
+    <string name="checkout_card_formatted_brand_name_not_supported">%sはサポートされていません</string>
+
+    <string name="checkout_address_form_billing_address_title">ご請求住所</string>
+    <string name="checkout_address_form_street_hint">番地</string>
+    <string name="checkout_address_form_address_hint">住所</string>
+    <string name="checkout_address_form_house_number_hint">部屋番号</string>
+    <string name="checkout_address_form_apartment_suite_hint">アパート名/部屋名</string>
+    <string name="checkout_address_form_city_hint">市区</string>
+    <string name="checkout_address_form_country_hint">国</string>
+    <string name="checkout_address_form_states_hint">都道府県</string>
+    <string name="checkout_address_form_zip_code_hint">郵便番号</string>
+    <string name="checkout_address_form_province_territory_hint">州または準州</string>
+    <string name="checkout_address_form_city_town_hint">市区町村</string>
+    <string name="checkout_address_form_field_not_valid">無効な入力</string>
+
+    <string name="checkout_card_installments_title">分割回数</string>
+    <string name="checkout_card_installments_option_regular">%sか月</string>
+    <string name="checkout_card_installments_option_one_time">一括払い</string>
+    <string name="checkout_card_installments_option_revolving">リボ払い</string>
+
+    <string name="store_payment_method">次回のお支払いのため詳細を保存</string>
+</resources>

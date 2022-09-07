@@ -1,0 +1,56 @@
+<!--
+  ~ Copyright (c) 2019 Adyen N.V.
+  ~
+  ~ This file is open source and available under the MIT license. See the LICENSE file for more info.
+  ~
+  ~ Created by ran on 13/3/2019.
+  -->
+
+<resources>
+    <string name="checkout_card_number_hint">%%creditCard.numberField.title%%</string>
+    <string name="checkout_card_holder_hint">%%creditCard.holderName%%</string>
+    <string name="checkout_card_expiry_date_hint">%%creditCard.expiryDateField.title%%</string>
+    <string name="checkout_card_expiry_date_optional_hint">%%creditCard.expiryDateField.title.optional%%</string>
+    <string name="checkout_card_security_code_hint">%%creditCard.cvcField.title%%</string>
+    <string name="checkout_card_security_code_optional_hint">%%creditCard.cvcField.title.optional%%</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_hint">%%creditCard.taxNumber.label%%</string>
+    <string name="checkout_kcp_tax_number_hint">%%creditCard.taxNumber.labelAlt%%</string>
+    <string name="checkout_kcp_password_hint">%%creditCard.encryptedPassword.label%%</string>
+    <string name="checkout_card_postal_code_hint">%%postalCode%%</string>
+
+    <string name="checkout_card_number_not_valid">%%creditCard.numberField.invalid%%</string>
+    <string name="checkout_expiry_date_not_valid">%%creditCard.expiryDateField.invalid%%</string>
+    <string name="checkout_expiry_date_not_valid_too_old">%%error.va.sf-cc-dat.01%%</string>
+    <string name="checkout_expiry_date_not_valid_too_far_in_future">%%error.va.sf-cc-dat.02%%</string>
+    <string name="checkout_security_code_not_valid">%%creditCard.oneClickVerification.invalidInput.title%%</string>
+    <string name="checkout_holder_name_not_valid">%%sepa.ownerName.invalid%%</string>
+    <string name="checkout_social_security_number_not_valid">%%validationAlert.title%%</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_invalid">%%creditCard.taxNumber.invalid%%</string>
+    <string name="checkout_kcp_password_invalid">%%creditCard.encryptedPassword.invalid%%</string>
+    <string name="checkout_card_postal_not_valid">%%openInvoice.errorFeedback.incorrectFormat%%</string>
+    <string name="checkout_card_brand_not_supported">%%creditCard.numberField.unknownBrand%%</string>
+    <string name="checkout_card_formatted_brand_name_not_supported">%%creditCard.numberField.unsupportedBrand%%</string>
+
+    <string name="checkout_address_form_billing_address_title">%%billingAddress%%</string>
+    <string name="checkout_address_form_street_hint">%%street%%</string>
+    <string name="checkout_address_form_address_hint">%%address%%</string>
+    <string name="checkout_address_form_house_number_hint">%%houseNumberOrName%%</string>
+    <string name="checkout_address_form_apartment_suite_hint">%%apartmentSuite%%</string>
+    <string name="checkout_address_form_city_hint">%%city%%</string>
+    <string name="checkout_address_form_country_hint">%%country%%</string>
+    <string name="checkout_address_form_states_hint">%%state%%</string>
+    <string name="checkout_address_form_zip_code_hint">%%zipCode%%</string>
+    <string name="checkout_address_form_province_territory_hint">%%provinceOrTerritory%%</string>
+    <string name="checkout_address_form_city_town_hint">%%cityTown%%</string>
+    <string name="checkout_address_form_field_not_valid">%%validationAlert.title%%</string>
+
+    <string name="checkout_card_installments_title">%%installments%%</string>
+    <string name="checkout_card_installments_option_regular">%%installmentOptionMonths%%</string>
+    <string name="checkout_card_installments_option_one_time">%%installments.oneTime%%</string>
+    <string name="checkout_card_installments_option_revolving">%%installments.revolving%%</string>
+
+    <string name="store_payment_method">%%storeDetails%%</string>
+    <!-- Untranslatable strings -->
+    <string name="checkout_social_security_number_hint" translatable="false">CPF/CNPJ</string>
+    <string name="card_number_4digit" translatable="false">•••• %s</string>
+</resources>

@@ -1,0 +1,53 @@
+<!--
+  ~ Copyright (c) 2019 Adyen N.V.
+  ~
+  ~ This file is open source and available under the MIT license. See the LICENSE file for more info.
+  ~
+  ~ Created by ran on 13/3/2019.
+  -->
+
+<resources>
+    <string name="checkout_card_number_hint">Numéro de la carte</string>
+    <string name="checkout_card_holder_hint">Nom sur la carte</string>
+    <string name="checkout_card_expiry_date_hint">Date d\'expiration</string>
+    <string name="checkout_card_expiry_date_optional_hint">Date d\'expiration (facultatif)</string>
+    <string name="checkout_card_security_code_hint">CVC / CVV</string>
+    <string name="checkout_card_security_code_optional_hint">CVC / CVV (facultatif)</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_hint">Date de naissance du porteur de carte (au format AAMMJJ) ou numéro d\'identification de l\'entreprise (à 10 chiffres)</string>
+    <string name="checkout_kcp_tax_number_hint">Numéro d\'identification de l\'entreprise (à 10 chiffres)</string>
+    <string name="checkout_kcp_password_hint">Les deux premiers chiffres du code de votre carte</string>
+    <string name="checkout_card_postal_code_hint">Code postal</string>
+
+    <string name="checkout_card_number_not_valid">Numéro de carte non valide</string>
+    <string name="checkout_expiry_date_not_valid">Date d\'expiration incorrecte</string>
+    <string name="checkout_expiry_date_not_valid_too_old">Carte trop ancienne</string>
+    <string name="checkout_expiry_date_not_valid_too_far_in_future">La date doit être plus proche</string>
+    <string name="checkout_security_code_not_valid">Format CVC/CVV incorrect</string>
+    <string name="checkout_holder_name_not_valid">Nom du titulaire incorrect</string>
+    <string name="checkout_social_security_number_not_valid">Saisie incorrecte</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_invalid">Date de naissance du porteur de carte ou numéro d\'identification de l\'entreprise incorrect(e)</string>
+    <string name="checkout_kcp_password_invalid">Code incorrect</string>
+    <string name="checkout_card_postal_not_valid">Le format de saisie n’est pas valide.</string>
+    <string name="checkout_card_brand_not_supported">L\'émetteur de cette carte n\'est pas pris en charge</string>
+    <string name="checkout_card_formatted_brand_name_not_supported">%s n\'est pas pris en charge</string>
+
+    <string name="checkout_address_form_billing_address_title">Adresse de facturation</string>
+    <string name="checkout_address_form_street_hint">Rue</string>
+    <string name="checkout_address_form_address_hint">Adresse</string>
+    <string name="checkout_address_form_house_number_hint">Numéro de rue</string>
+    <string name="checkout_address_form_apartment_suite_hint">Appartement</string>
+    <string name="checkout_address_form_city_hint">Ville</string>
+    <string name="checkout_address_form_country_hint">Pays</string>
+    <string name="checkout_address_form_states_hint">État</string>
+    <string name="checkout_address_form_zip_code_hint">Code postal</string>
+    <string name="checkout_address_form_province_territory_hint">Province ou territoire</string>
+    <string name="checkout_address_form_city_town_hint">Ville</string>
+    <string name="checkout_address_form_field_not_valid">Saisie incorrecte</string>
+
+    <string name="checkout_card_installments_title">Nombre de versements</string>
+    <string name="checkout_card_installments_option_regular">%s mois</string>
+    <string name="checkout_card_installments_option_one_time">Paiement unique</string>
+    <string name="checkout_card_installments_option_revolving">Paiement en plusieurs fois</string>
+
+    <string name="store_payment_method">Sauvegarder pour mon prochain paiement</string>
+</resources>

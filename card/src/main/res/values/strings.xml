@@ -1,0 +1,56 @@
+<!--
+  ~ Copyright (c) 2019 Adyen N.V.
+  ~
+  ~ This file is open source and available under the MIT license. See the LICENSE file for more info.
+  ~
+  ~ Created by ran on 13/3/2019.
+  -->
+
+<resources>
+    <string name="checkout_card_number_hint">Card number</string>
+    <string name="checkout_card_holder_hint">Name on card</string>
+    <string name="checkout_card_expiry_date_hint">Expiry date</string>
+    <string name="checkout_card_expiry_date_optional_hint">Expiry date (optional)</string>
+    <string name="checkout_card_security_code_hint">CVC / CVV</string>
+    <string name="checkout_card_security_code_optional_hint">CVC / CVV (optional)</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_hint">Cardholder birthdate (YYMMDD) or Corporate registration number (10 digits)</string>
+    <string name="checkout_kcp_tax_number_hint">Corporate registration number (10 digits)</string>
+    <string name="checkout_kcp_password_hint">First 2 digits of card password</string>
+    <string name="checkout_card_postal_code_hint">Postal code</string>
+
+    <string name="checkout_card_number_not_valid">Invalid card number</string>
+    <string name="checkout_expiry_date_not_valid">Invalid expiry date</string>
+    <string name="checkout_expiry_date_not_valid_too_old">Card too old</string>
+    <string name="checkout_expiry_date_not_valid_too_far_in_future">Date too far in the future</string>
+    <string name="checkout_security_code_not_valid">Invalid CVC / CVV format</string>
+    <string name="checkout_holder_name_not_valid">Holder name invalid</string>
+    <string name="checkout_social_security_number_not_valid">Invalid Input</string>
+    <string name="checkout_kcp_birth_date_or_tax_number_invalid">Invalid Cardholder birthdate or Corporate registration number</string>
+    <string name="checkout_kcp_password_invalid">Invalid password</string>
+    <string name="checkout_card_postal_not_valid">Input format is not valid.</string>
+    <string name="checkout_card_brand_not_supported">The entered card brand isn\'t supported</string>
+    <string name="checkout_card_formatted_brand_name_not_supported">%s isn\'t supported</string>
+
+    <string name="checkout_address_form_billing_address_title">Billing address</string>
+    <string name="checkout_address_form_street_hint">Street</string>
+    <string name="checkout_address_form_address_hint">Address</string>
+    <string name="checkout_address_form_house_number_hint">House number</string>
+    <string name="checkout_address_form_apartment_suite_hint">Apartment / Suite</string>
+    <string name="checkout_address_form_city_hint">City</string>
+    <string name="checkout_address_form_country_hint">Country</string>
+    <string name="checkout_address_form_states_hint">State</string>
+    <string name="checkout_address_form_zip_code_hint">Zip code</string>
+    <string name="checkout_address_form_province_territory_hint">Province or Territory</string>
+    <string name="checkout_address_form_city_town_hint">City / Town</string>
+    <string name="checkout_address_form_field_not_valid">Invalid Input</string>
+
+    <string name="checkout_card_installments_title">Number of installments</string>
+    <string name="checkout_card_installments_option_regular">%s months</string>
+    <string name="checkout_card_installments_option_one_time">One time payment</string>
+    <string name="checkout_card_installments_option_revolving">Revolving payment</string>
+
+    <string name="store_payment_method">Save for my next payment</string>
+    <!-- Untranslatable strings -->
+    <string name="checkout_social_security_number_hint" translatable="false">CPF/CNPJ</string>
+    <string name="card_number_4digit" translatable="false">•••• %s</string>
+</resources>
