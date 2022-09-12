@@ -210,3 +210,12 @@ This repository is open source and available under the MIT license. For more inf
 [docs.cardConfiguration]: https://docs.adyen.com/online-payments/android/components#step-1-set-up-components
 [client.key]: https://docs.adyen.com/online-payments/android/drop-in#client-key
 [migration.guide]: https://docs.adyen.com/online-payments/android/migrate-to-android-4-0-0
+
+
+---
+
+For testing purposes, some workflows were added:
+- Dependabot weekly
+- SAST Scanners
+    - SonarCloud in every MR
+    - SemGrep on a cron job
